@@ -1,4 +1,4 @@
 package com.testingacademy;
 
-public class Test002 {
+public class Test02 {
 }
