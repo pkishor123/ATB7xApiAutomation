@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/kisho/IdeaProjects/ATB7xApiAutommation">
+        <classes>
+            <class name="com.testingacademy.ex_15192024.CRUD.PUT.NonBDDPUTStyle">
+                <methods>
+                    <include name="test_put_positive_tc"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_15192024.CRUD.testng.Test001">
+                <methods>
+                    <include name="test_get"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_15192024.CRUD.testng.Test002">
+                <methods>
+                    <include name="demo5"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_15192024.CRUD.testng.Test003">
+                <methods>
+                    <include name="demo5"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
